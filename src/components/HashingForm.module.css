@@ -1,0 +1,59 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  font-family: monospace, sans-serif;
+}
+
+.formGroup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hashValue {
+  font-size: 16px;
+  margin-top: 10px;
+  word-wrap: break-word;
+
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+  }
+}
+
+.output {
+  margin-top: 2rem;
+}
+
+.output h2 {
+  margin-bottom: 1rem;
+}
+
+.output textarea {
+  width: 95%;
+  height: 10rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: "Roboto Mono", monospace;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  overflow-y: auto;
+}
