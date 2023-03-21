@@ -4,6 +4,8 @@
 
 This is a hashing application built using Vite, React, TypeScript, and CryptoJS that allows you to encrypt messages. The application uses three hash functions (MD5, SHA-1, and SHA-256) to convert the input message.
 
+- live Demo: https://gigaberdzenishvili.github.io/HashingApplication-React/
+
 ## Usage
 
 - Type a message (text or number) in the input field.
